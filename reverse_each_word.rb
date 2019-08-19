@@ -4,7 +4,7 @@ def reverse_each_word(string)
   #  word.reverse!
   #end
   
-  ary.collect{|word| word.reverse}
+  ary.collect{|word| word.reverse!}
   
   
   result = ary.join(" ")
