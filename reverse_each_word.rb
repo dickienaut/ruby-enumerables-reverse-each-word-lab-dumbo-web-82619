@@ -4,6 +4,9 @@ def reverse_each_word(string)
     word.reverse!
   end
   
+  .collect{|letter| letter.capitalize}
+  
+  
   result = ary.join(" ")
   return result
 end
